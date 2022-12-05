@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 40px;
+    animation: ma 10s infinite;
+}
+@keyframes ma{
+0%{
+    color: rgb(14, 243, 166);
+}
+25%{
+    color: rgb(42, 42, 249);
+}
+50%{
+    color: rgb(249, 9, 57);
+}
+75%{
+    color: rgb(35, 240, 243);
+}
+100%{
+    color: rgb(247, 44, 152);
+}
+}
+.date{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#input1{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+#input2{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+}
+@media (min-width:320px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        font-size: 20px;
+        animation: ma 10s infinite;
+    }
+    .date{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+    #input1{
+        width: 50%;
+        height: 25px;
+        text-align: center;
+    }
+    #input2{
+        width: 50%;
+        height: 25px;
+        text-align: center;
+    }
+    p{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}
+@media (min-width:576px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        font-size: 33px;
+        animation: ma 10s infinite;
+    }
+    .date{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    #input1{
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    #input2{
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
+@media (min-width:768px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        font-size: 60px;
+        animation: ma 10s infinite;
+    }
+    .date{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    #input1{
+        width: 400px;
+        height: 35px;
+        text-align: center;
+    }
+    #input2{
+        width: 400px;
+        height: 35px;
+        text-align: center;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+}
